@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {//编译选项
+    "target": "es2016",//配置编译1目标代码版本标准
+    "module": "commonjs",//配置的1编译目标使用1的模块化标准
+    "lib": ["es2016",],
+    "outDir": "dist",//编译输出到哪里，
+    "strictNullChecks": true//表示更加严格的空类型检查从此以后null和undefined只能赋值给自身
+  },
+  "include": ["src"],//表示的是编译那个问价夹下的ts
+  // "files": ["./src/index.ts"]表示编译指定的文件
+}
