@@ -57,3 +57,12 @@ function combine(a:number|string,b:number|string,c?:number):number|string{
 const nums = combine('1','2')
 console.log(nums)
 
+// 枚举
+enum Gender {
+    Male='男',
+    female='女'
+}
+let gender:Gender
+gender = Gender.Male
+
+console.log(gender)
